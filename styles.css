@@ -1,0 +1,98 @@
+* {
+ box-sizing: border-box;
+ margin: 0px;
+ padding: 0%;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    margin-bottom: 30px;
+    display: block;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+}
+
+#crystalcube {
+    text-align: center;
+    width: 100%;
+    border-radius: 3%;
+}
+
+#mainpage {
+background-color:  hsl(216, 50%, 16%);
+margin: 30px auto auto auto;
+height: 545px;
+width: 340px;
+padding: 25px;
+color: hsl(215, 51%, 70%);
+border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+    #mainpage{
+      width: 60%;
+    }
+  }
+
+#description {
+    margin: 20px auto;
+}
+
+#mainbox {
+    display: flex;
+    justify-content: space-between;
+    /*margin: auto auto 10px auto ;*/
+    padding: 0 0 10px 0;
+}
+
+#box1 {
+    display: flex;
+    color: hsl(178, 100%, 50%);
+}
+
+#box2 {
+    display: flex;
+}
+
+h2 {
+    color: blanchedalmond;
+    padding: 0 0 20px 0;
+}
+
+p {
+    Font-size: 16px;
+}
+
+#days {
+    padding-left: 6px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+#cyan {
+    padding-left: 6px;
+    font-weight: 600;
+}
+
+hr {
+    height: 1px;
+    border-top:  0066CC; /* come back here to style this*/
+}
+
+#name {
+    color: white;
+}
+
+.footnote {
+    display: flex;
+    padding: 20px 0 10px 0;
+    align-items: center;
+}
+
+#creator {
+    margin: 0 20px 0 0;
+    height: 30px;
+    border: solid white 1.5px;
+    border-radius: 100%;
+}
